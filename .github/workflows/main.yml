@@ -16,6 +16,7 @@ jobs:
         uses: mikepenz/action-junit-report@v3
         with:
           #report_paths: ${{ github.workspace }}
+          echo ${{ github.workspace }}
           report_paths: '/github/workspace/dastardly-report.xml'       # You need to update this path if you pass in a different output filename to the Dastardly action
           require_tests: true
       

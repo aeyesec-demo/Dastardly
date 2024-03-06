@@ -10,7 +10,7 @@ jobs:
         uses: PortSwigger/dastardly-github-action@main
         with:
           #target-url: 'http://54.248.57.27:3000/'
-          target-url: 'http://54.199.245.840/'
+          target-url: 'http://54.199.245.84/'
           
       - name: Publish Test Report
         if: always()                                    # Forces this step to always run

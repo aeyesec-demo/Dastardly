@@ -1,4 +1,4 @@
-name: Dastardly
+name: Dastardly_JuiceShop
 on: [ workflow_dispatch ]
 
 jobs:
@@ -10,7 +10,8 @@ jobs:
         uses: PortSwigger/dastardly-github-action@main
         with:
           #target-url: 'http://54.248.57.27:3000/'
-          target-url: 'http://54.199.245.84/'
+          #target-url: 'http://54.199.245.84/'
+          target-url: 'http://35.79.0.50:3000/'
           
       - name: Publish Test Report
         if: always()                                    # Forces this step to always run

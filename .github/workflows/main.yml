@@ -10,8 +10,6 @@ jobs:
       - name: Run Dastardly Action Step
         uses: PortSwigger/dastardly-github-action@main
         with:
-          #target-url: 'http://54.248.57.27:3000/'
-          #target-url: 'http://54.199.245.84/'
           target-url: 'http://35.79.0.50:3000/'
           
       - name: Publish Test Report
@@ -21,3 +19,11 @@ jobs:
           report_paths: '**/dastardly-report.xml'
           require_tests: true
       
+
+
+
+
+
+
+          #target-url: 'http://54.248.57.27:3000/'
+          #target-url: 'http://54.199.245.84/'
